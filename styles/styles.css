@@ -1,0 +1,63 @@
+.header {
+    margin: 40px 20px;
+    font-size: 0;
+    line-height: 45px;
+}
+
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo > img {
+    height: 100%;
+}
+
+.navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+}
+
+li {
+    display: inline;
+    padding: 0 25px;
+    color: #025157;
+}
+
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.actions :first-child {
+    color: #67b54b;
+    padding: 0 10px;
+}
+
+.actions :last-child {
+    background-color: #67b65b;
+    color: white;
+    padding: 12px 14px;
+    border-radius: 5px;
+}
+
+
+li a, .actions a {
+    color: #025157;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #025157;
+    text-decoration: underline #025157;
+}
